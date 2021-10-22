@@ -1,0 +1,32 @@
+{
+    "name": "rouigram-api-server",
+    "version": "0.0.1",
+    "description": "rouigram-api-server is platform for getting instagram user account informartion",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "bluebird": "^3.7.2",
+        "body-parser": "^1.19.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "formidable": "^1.2.2",
+        "google-caja": "0.0.2",
+        "grunt": "^1.4.1",
+        "http": "0.0.1-security",
+        "mongoose": "^6.0.11",
+        "nicemail": "^1.0.4",
+        "util": "^0.12.4"
+    },
+    "devDependencies": {
+        "chai": "^4.1.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-env": "^0.4.4",
+        "grunt-mocha-test": "^0.13.2",
+        "mocha": "^3.5.0"
+    }
+}
